@@ -7,6 +7,8 @@ let randomize = document.getElementById("randomize");
 let previousPeers = document.getElementById("previousPeers");
 
 let previousPeer = "";
+let counter = 5;
+let previousArray = [];
 
 function getPeerData(){
     return fetch("../data/data.json")
@@ -23,8 +25,6 @@ function getRandomPeer(peers){
     return peers[randomIndex];
 }
 
-let counter = 5;
-let previousArray = [];
 
 randomize.addEventListener
 ("click", (event) => {
