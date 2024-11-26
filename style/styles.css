@@ -1,0 +1,70 @@
+body {
+    background-image: url("../assets/relaxing-sky.jpg");
+    background-size: fill;
+    background-repeat: no-repeat;
+}
+
+/* general-start */
+.bold {
+    font-weight: bold;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.size-36 {
+    font-size: 36px;
+}
+
+.size-30 {
+    font-size: 30px;
+}
+
+.size-26 {
+    font-size: 26px;
+}
+
+.size-20 {
+    font-size: 20px;
+}
+/* general-end */
+
+.rng-grid {
+    display: grid;
+    place-items: center;
+    margin: 10% 15%;
+}
+
+.box-body {
+    background-color: white;
+    border-radius: 10px;
+    outline-style: ridge;
+    box-shadow: 0 0.2em 0.2em black;
+}
+
+.box-body:nth-child(1){
+    text-align: center;
+    grid-row: 1;
+    width: 30em;
+    height: 40em;
+}
+
+.box-body:nth-child(2){
+    text-align: center;
+    grid-row: 1;
+    width: 20em;
+    height: 20em;
+}
+
+.random-btn {
+    border-radius: 5px;
+    background-color: transparent;
+    box-shadow: 0 0.05em 0.2em black;
+}
+
+.random-btn:hover {
+    cursor: pointer;
+    background-color: rgb(136, 206, 230);
+    color: white;
+}
